@@ -12,3 +12,5 @@ def line (line)
   puts statement
 end
 
+def take_a_number (line,name)
+  
