@@ -6,6 +6,7 @@ def line (line)
     counter = 1
     line.each do |name|
       statement += " #{counter}. #{name}"
+      counter +=1
     end
   end
   puts statement
