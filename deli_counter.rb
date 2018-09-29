@@ -5,7 +5,7 @@ def line (line)
     print "The line is currently:"
     counter = 1
     line.each do |name|
-      puts " #{counter}. #{name}"
+      print " #{counter}. #{name}"
     end
   end
 end
